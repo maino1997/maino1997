@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 15%;
+}
+
+  .over,.form{
+   height: 95vh;
+   width: 70%;
+   margin: auto;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   position: absolute;
+   top: 48%;
+   left: 50%;
+   transform: translate( -50%, -50%);
+}
+
+.form{
+  background-color:black;
+  opacity: 0.6;
+  border-radius: 2%;
+  height: 95vh;
+  width: 70%;
+}
+
+
+header{
+  height: 40vh;
+  width: 100%;
+  color: rgba(0, 255, 13, 0.94);
+}
+
+
+main{
+  height: 50vh;
+  width: 100%;
+  color: white;
+}
+
+
+.container{    /*container del logo*/
+  margin: auto;
+  margin-top: 20px;
+  width: 30%;
+  height: 60%;
+}
+
+.logo{
+  max-width:100%;
+  max-height:100%;
+}
+
+
+.title{  /*titolo*/
+  height: 15%;
+  width: 100%;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.buttons{
+  width: 90%;
+  height: 15%;
+  background-color: rgba(0, 255, 13, 0.94);
+  margin: auto;
+  text-align: center;
+}
+
+
+input[type="button"]{
+  height: 60%;
+  border: black solid 1px;
+  display: inline-block;
+  margin: auto;
+  margin-top: 9px;
+  margin-bottom: 2px;
+}
+
+
+.descrizione{
+  height: 30%;
+  width:100%;
+  margin: auto;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+.barra1{
+  height: 35%;
+  width: 35%;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.barra2{
+  height: 35%;
+  width: 65%;
+  background-color: green;
+  border-radius: 10px;
+}
+
+.barra3{
+  height: 35%;
+  width: 15%;
+  background-color: red;
+  border-radius: 10px;
+}
